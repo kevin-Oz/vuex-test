@@ -1,19 +1,18 @@
 <template>
-  <div id="app" class="container">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <Lista></Lista>
+  <div id="app" class="container" >
+    <HelloWorld msg="Vuex Test" style="color: white"/>
+    <Categoria/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Lista from './components/Lista.vue'
+import Categoria from './components/Categoria.vue'
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Lista
+    Categoria
   }
 }
 </script>
